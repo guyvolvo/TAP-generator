@@ -1,7 +1,7 @@
 param (
     [Parameter(Mandatory=$true)]
     [string]$UserUPN
-
+)
 Connect-MgGraph -Scopes "User.Read.All", "UserAuthenticationMethod.ReadWrite.All", "GroupMember.ReadWrite.All" -NoWelcome
 
 # group id of the temp pass group
