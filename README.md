@@ -1,7 +1,7 @@
 # TAP-generator
 Powershell script that utilizes graph to generate a temporary password for a user\
 Usage:
-`.\temp-pass.ps1 'user@domain.com'`\
+`.\temp-pass.ps1 'user@domain.com'`
 
 
 **You muse have a group with a dedicated Temporary pass rule to add members to**\
